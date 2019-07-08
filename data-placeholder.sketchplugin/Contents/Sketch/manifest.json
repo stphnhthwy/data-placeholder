@@ -1,0 +1,29 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "suppliesData": true,
+  "commands": [
+    {
+      "script": "my-command.js",
+      "handlers": {
+        "actions": {
+          "Startup": "onStartup",
+          "Shutdown": "onShutdown",
+          "SupplyAddress": "onSupplyAddress"
+        }
+      }
+    }
+  ],
+  "menu": {
+    "title": "Placeholder Data"
+  },
+  "version": "0.1.0",
+  "description": "A DataSupplier plugin",
+  "name": "Date",
+  "identifier": "Date",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "Stephen Hathaway",
+  "authorEmail": "stphnhthwy@gmail.com"
+}
